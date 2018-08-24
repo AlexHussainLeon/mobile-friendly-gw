@@ -1,0 +1,24 @@
+body{
+  padding: 20px;
+}
+
+.row > * {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+h2 {
+  display: inline-block;
+}
+
+.jumbotron{
+  height: 200px;
+}
+
+.right{
+  margin-right: 0px;
+}
+
+.left{
+  margin-left: 0px;
+}
