@@ -1,2 +1,56 @@
 @import url("../fonts/glyphicons-halflings-regular.woff2");
 /* Don't forget the .. to back to the root */
+
+.parent {
+  height: 100%;
+  width: 100%;
+  padding: 0 10%;
+  background: #888;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-end;
+  align-items: flex-end;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.child > * {
+  display: inline;
+}
+
+.child {
+  border: 1px solid black;
+  width: 120px;
+  height: 120px;
+  background: tomato;
+  /* font-size: 3em; */
+  color: white;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 300px;
+  width: 300px;
+  background: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.grandchild {
+  height: 100px;
+  width: 100px;
+  background: purple;
+}
+
+.half {
+  height: 50px;
+
+}
+
+.quarter {
+  height: 25px;
+}
